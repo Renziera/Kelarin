@@ -5,6 +5,22 @@
   <title>Kelarin</title>
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-storage.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBqj4aTG13U8jtwQFJgxzGAFlVf_1juayM",
+      authDomain: "kelarin.web.app",
+      databaseURL: "https://kelarin.firebaseio.com",
+      projectId: "kelarin",
+      storageBucket: "kelarin.appspot.com",
+      messagingSenderId: "354703091543",
+      appId: "1:354703091543:web:2569b8413803d4be43c012"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>

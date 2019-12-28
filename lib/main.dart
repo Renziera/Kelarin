@@ -9,7 +9,7 @@ class Kelarin extends StatelessWidget {
     return MaterialApp(
       title: 'Kelarin',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepOrange,
       ),
       home: Splash(),
     );
