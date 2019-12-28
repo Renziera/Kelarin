@@ -10,8 +10,11 @@ class _HomePercetakanState extends State<HomePercetakan> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dashboard Percetakan'),
+        title: Text(
+          'Dashboard Percetakan',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
       ),
     );
   }
-} 
+}

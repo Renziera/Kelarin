@@ -10,7 +10,10 @@ class _HomePenggunaState extends State<HomePengguna> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('KELARIN'),
+        title: Text(
+          'KELARIN',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
       ),
     );
   }
